@@ -1,0 +1,12 @@
+{
+  "pathsToBackup": [
+    "/home/user/Documents",
+    "/home/user/config.json"
+  ],
+  "backupDestination": "/tmp/local-backups",
+  "remote": {
+    "user": "user",
+    "host": "192.168.1.10",
+    "path": "/home/user/sauvegardes"
+  }
+}

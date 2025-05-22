@@ -1,0 +1,14 @@
+{
+  "name": "backup-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "node-cron": "^4.0.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "backup:now": "node -e 'require(\"./src/backup/scheduler\").performBackup()'",
+    "restore": "node -e 'const restore = require(\"./src/restore\"); if(process.argv[2]) { restore(process.argv[2]); } else { console.error(\"Veuillez spécifier le nom de la sauvegarde à restaurer\"); }'"
+  }
+}
