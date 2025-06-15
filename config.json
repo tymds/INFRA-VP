@@ -8,5 +8,7 @@
     "user": "user",
     "host": "192.168.1.10",
     "path": "/home/user/sauvegardes"
-  }
+  },
+  "maxBackups": 7,
+  "minRequiredSpace": 1073741824
 }

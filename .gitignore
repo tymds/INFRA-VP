@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Backup files
+/tmp/local-backups/
+
+# IDE specific files
+.vscode/
+.idea/
